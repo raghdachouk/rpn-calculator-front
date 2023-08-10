@@ -2,11 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App-container_stacks{
+display: flex;
+justify-content: space-around;
+align-items: start;
+flex-wrap: wrap;
 
+}
+.App_create-stack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +43,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+button {
+  background-color: #99bedd;
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.4;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+}
+
+
+button:hover {
+  background-color: #0077CC;
+  border-color: #0077CC;
+  text-decoration: none;
 }
